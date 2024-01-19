@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rahul-Portfolio </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Salsa&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha384-pzjw8L+nsMy+8XfXgk0Zl6wWd36sDAwPo5GtQHu7Za9kJdw7aZ7jgZCFwlM8Fla8" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+    <!-- --------------------home section--------------------------- -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id = "sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about-section">About Me</a></li>
+                    <li><a href="#project-section">My Projects</a></li>
+                    <li><a href="#contact-section">Contact Me</a></li>
+                    <img src="images/close.png" class="menu" onclick="closemenu()">
+                </ul>
+                <img src="images/menu.png" class="menu" onclick="openmenu()">
+            </nav>
+            <div class="header-text">
+                <h1>Hi , I am <span>Rahul</span><br> Prajapati From New Delhi</h1>
+            </div>
+        </div>
+    </div>
+    <!-- -------------------------about section-------------------------- -->
+    <div id="about-section">
+        <div class="container">
+            <div class="row">
+                <div class="about-col1">
+                    <img src="images/me.jpeg" alt="#">
+                </div>
+                <div class="about-col2">
+                    <h1 class="sub-tittle">About Me</h1>
+                    <p>Hello! I'm Rahul Prajapati, a B.Tech CSE student hailing from Aya Nagar, New Delhi, currently in my 2nd year at Gautam Buddha University, Greater Noida. With a passion for technology, I specialize in Android and web development, proficient in languages like C, C++, Java, Python, and JavaScript. My hands-on experience includes crafting a music player and a chat application for Android, as well as developing dynamic websites such as a weather site and a personal portfolio. Eager to leverage my skills and creativity to contribute innovative solutions in the ever-evolving world of technology.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Languages</span><br>C++ , Java , Python</li>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>Android Development</span><br>Building Android Apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li>No Experience till now</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>10+2 Qualification</span><br>From Kendriya Vidyalaya Arjangarh</li>
+                            <li><span>Graduation</span><br>BTech CSE (Now in 2nd Year)</li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ---------------------------projects section-------------------------- -->
+    <div id="project-section">
+        <div class="container">
+            <h1 class="sub-tittle">My Projects</h1>
+            <div class="projects-list">
+                <div class="project">
+                    <img src="images/work-1.jpeg" alt="">
+                    <div class="layer">
+                        <h3>Weather Site</h3>
+                        <p>Created a dynamic weather site that fetches real-time weather data and displays it in an interactive and user-friendly interface.
+                        </p>
+                        <a href="project1.html"><img src="images/external-link.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="images/work-2.jpeg" alt="">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Designed and implemented a real-time chat application, incorporating features like user authentication, messaging, and notifications.</p>
+                        <a href="#"><img src="images/external-link.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="images/work-3.jpeg" alt="">
+                    <div class="layer">
+                        <h3>Music Player</h3>
+                        <p>Developed a fully functional music player with features such as playback controls, and file browsing.</p>
+                        <a href="#"><img src="images/external-link.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <!-- ----------------------------contact section------------------------------ -->
+    <div id="contact-section">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-tittle">Contact Me</h1>
+                    <p> <img src="images/paper-plane.png" alt=""> rp520972@gmail.com</p>
+                    <p> <img src="images/call.png" alt=""> 9625704826</p>
+                    <div class="social-icons">
+                        <a href=""><img src="images/facebook.png" alt=""></a>
+                        <a href="https://www.instagram.com/invites/contact/?i=12go07rler8rp&utm_content=49k7ior"><img src="images/instagram.png" alt=""></a>
+                        <a href="https://twitter.com/Rahul792472801?t=fVrGWv8IzN9Y8Y5KCT6OZg&s=08"><img src="images/twitter.png" alt=""></a>
+                        <a href="https://www.linkedin.com/in/rahul-prajapati-280166257?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img src="images/linkedin.png" alt=""></a>
+                    </div>
+                    <a href="images/Resume (1).pdf" download class="btn btn2">Download CV</a>
+                </div>
+                
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Rahul</p>
+        </div>
+    </div>
+    <script src="script.js">
+    </script>
+</body>
+
+</html>
