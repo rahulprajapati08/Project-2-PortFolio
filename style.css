@@ -288,7 +288,7 @@ nav .menu{
         background: url(images/1665309540347-removebg\ \(1\).png);
     }
     .header-text{
-        margin-top:100% ;
+        margin-top:390px ;
         font-size: 16px;
     }
     .header-text h1{
@@ -304,7 +304,7 @@ nav .menu{
         background: #00e5ff;
         position: fixed;
         top: 0;
-        right: -230px;
+        right: -250px;
         width: 200px;
         height: 100vh;
         padding-top: 50px;
