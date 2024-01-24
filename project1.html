@@ -3,9 +3,94 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Weather-Site</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Salsa&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="project1style.css">
 </head>
 <body>
-    project1
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id = "sidemenu">
+                    <li><a href="index.html#header">Home</a></li>
+                    <li><a href="index.html#about-section">About Me</a></li>
+                    <li><a href="index.html#project-section">My Projects</a></li>
+                    <li><a href="#contact-section">Contact Me</a></li>
+                    <img src="images/close.png" class="menu" onclick="closemenu()">
+                </ul>
+                <img src="images/menu.png" class="menu" onclick="openmenu()">
+            </nav>
+        </div>
+    </div>
+    <div class="media-content">
+        <h1 class="title">Weather Site</h1>
+        
+        <div class="devices">
+        <div class="device1">
+            <video id="demo-vid1" width="450" height="360" playsinline autoplay muted loop>
+                <source src="images/laptop.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="device2">
+            <video id="demo-vid2" width="247" height="250" playsinline autoplay muted loop>
+                <source src="images/mobile.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="device3">
+            <video id="demo-vid2" width="380" height="480" playsinline autoplay muted loop>
+                <source src="images/tab.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+    <a href="https://rahulprajapati08.github.io/Project-1-/" class="btn" target="_blank">Visit the Site <img src="images/external-link.png" alt=""></a>
+    </div>
+    <div class="description">
+        <h1 class="title">Description</h1>
+        <p>Welcome to Mausam, your go-to destination for instant and immersive weather updates! Our website is designed to provide you with real-time weather information for any city you desire. Using a seamless combination of HTML, CSS, and JavaScript, we've created an intuitive platform accessible to all.
+            <br><br>
+            Upon entering Mausam, users are greeted with a clean and user-friendly interface. The primary feature allows you to search for your city effortlessly. Once you've selected your location, Mausam fetches the latest weather data using a robust API key, ensuring accuracy and reliability in every update.
+            <br><br>
+            Mausam not only delivers the current temperature but also provides additional essential details such as wind speed and humidity. We understand the importance of these factors in shaping your day, whether you're planning outdoor activities or deciding on your outfit.
+            <br><br>
+            But what sets Mausam apart is the immersive experience it offers. As you explore the weather conditions, the background of the site dynamically transforms, reflecting the current temperature through a captivating video. This innovative feature enables users to visually experience the weather, making the website not just informative but also visually engaging.
+            <br><br>
+            The creation of Mausam was made possible through the utilization of Visual Studio Code (VS Code), a powerful code editor that facilitated the development process. The combination of HTML for structure, CSS for styling, and JavaScript for dynamic functionality ensures a smooth and efficient user experience.
+            <br><br>
+            At Mausam, we believe in simplicity, accuracy, and a touch of visual appeal. Stay informed, plan your day, and experience the weather like never before with Mausam – your personalized weather companion.</p>
+    </div>
+    <div id="contact-section">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-tittle">Contact Me</h1>
+                    <p> <img src="images/paper-plane.png" alt=""> rp520972@gmail.com</p>
+                    <p> <img src="images/call.png" alt=""> 9625704826</p>
+                    <div class="social-icons">
+                        <a href=""><img src="images/facebook.png" alt=""></a>
+                        <a href="https://www.instagram.com/invites/contact/?i=12go07rler8rp&utm_content=49k7ior" target="_blank"><img src="images/instagram.png" alt=""></a>
+                        <a href="https://twitter.com/Rahul792472801?t=fVrGWv8IzN9Y8Y5KCT6OZg&s=08" target="_blank"><img src="images/twitter.png" alt=""></a>
+                        <a href="https://www.linkedin.com/in/rahul-prajapati-280166257?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><img src="images/linkedin.png" alt=""></a>
+                    </div>
+                    <a href="images/Resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Rahul</p>
+        </div>
+    </div>
 </body>
 </html>

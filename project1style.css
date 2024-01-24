@@ -1,0 +1,163 @@
+body{
+    background-color: black;
+    color: #fff;
+    font-family: 'Salsa';
+}
+html{
+    scroll-behavior: smooth;
+}
+nav img{
+    width: 310px;
+    height: 100px;
+}
+.container {
+   padding: 10px 10%; 
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px 20px;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+}
+nav ul li a::after{
+    content: ' ';
+    width: 0;
+    height: 3px;
+    background: #00e5ff;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+nav ul li a:hover::after{
+    width: 100%;
+}
+#header{
+    width: 100%;
+    height: 120px;
+    background-size: cover;
+    background-position: center;
+}
+nav .menu{
+    display: none;
+}
+.title{
+    font-size: 60px;
+    font-weight: 600;
+    color: #fff;
+    margin:55px 142px;
+}
+hr{
+    color: #ababab;
+}
+.devices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.btn{
+    display: block;
+    margin: 50px auto;
+    width: fit-content;
+    border: 1px solid #00e5ff;
+    padding: 14px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #fff;
+    transition: background 0.5s;
+}
+.btn:hover{
+    background: #00e5ff;
+}
+.btn img{
+    width: 15px;
+    height: 15px;
+    overflow: hidden;
+}
+
+.description p {
+    font-size: 20px;
+    margin: 83px 140px;
+}
+.contact-left{
+    flex-basis: 35%;
+}
+.contact-right{
+    flex-basis: 60%;
+}
+.contact-left p{
+    margin-top: 30px;
+}
+.contact-left p i{
+    color: #00e5ff;
+    margin-right: 15px;
+    font-size: 25px;
+}
+.social-icons{
+    margin-top: 30px;
+
+}
+.social-icons a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color: #ababab;
+    display: inline-block;
+    transition: transform 0.5s;
+}
+.social-icons a:hover{
+    filter: brightness(2) sepia(1) hue-rotate(180deg);
+    transform: translateY(-5px);
+}
+
+.btn.btn2{
+    display: inline-block;
+    background: #00e5ff;
+    
+}
+.contact-right form{
+    width: 100%;
+}
+form input , form textarea{
+    width: 100%;
+    outline: none;
+    border: 0;
+    background: #262626;
+    padding: 15px;
+    margin: 15px 0;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+}
+form .btn2{
+    padding: 14px 60px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.copyright{
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    background: #262626;
+    font-weight: 300;
+    margin-top: 20px;}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
