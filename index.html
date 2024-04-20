@@ -9,6 +9,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Salsa&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha384-pzjw8L+nsMy+8XfXgk0Zl6wWd36sDAwPo5GtQHu7Za9kJdw7aZ7jgZCFwlM8Fla8" crossorigin="anonymous">
 
 
@@ -23,23 +26,28 @@
                 <ul id = "sidemenu">
                     <li><a href="#header">Home</a></li>
                     <li><a href="#about-section">About Me</a></li>
-                    <li><a href="#project-section">My Projects</a></li>
+                    <li><a href="projects.html">My Projects</a></li>
                     <li><a href="#contact-section">Contact Me</a></li>
                     <img src="images/close.png" class="menu" onclick="closemenu()">
                 </ul>
                 <img src="images/menu.png" class="menu" onclick="openmenu()">
             </nav>
+            
             <div class="header-text">
-                <h1>Hi , I am <span>Rahul</span><br> Prajapati From New Delhi</h1>
+                <h3>Hi , I am </h3><h1> Rahul Prajapati </h1><h3> and I'm a <span class="multiple-text"></span> </h3>
             </div>
+            <!-- <div class="home-img">
+                <img src="images/1665309540347-removebg (1).png" alt="">
+            </div> -->
         </div>
+        
     </div>
     <!-- -------------------------about section-------------------------- -->
     <div id="about-section">
         <div class="container">
             <div class="row">
                 <div class="about-col1">
-                    <img src="images/me.png" alt="#">
+                    <img src="images/me3.png" alt="#">
                 </div>
                 <div class="about-col2">
                     <h1 class="sub-tittle">About Me</h1>
@@ -53,7 +61,7 @@
 
                     <div class="tab-contents active-tab" id="skills">
                         <ul>
-                            <li><span>Languages</span><br>C++ , Java , Python</li>
+                            <li><span>Languages</span><br>C++ , Java , Python , SQL , DSA</li>
                             <li><span>Web Development</span><br>Web App Development</li>
                             <li><span>Android Development</span><br>Building Android Apps</li>
                         </ul>
@@ -94,19 +102,19 @@
                     <div class="layer">
                         <h3>Social Media App</h3>
                         <p>Designed and implemented a real-time chat application, incorporating features like user authentication, messaging, and notifications.</p>
-                        <a href="#"><img src="images/external-link.png" alt=""></a>
+                        <a href="quiktalk.html"><img src="images/external-link.png" alt=""></a>
                     </div>
                 </div>
                 <div class="project">
-                    <img src="images/work-3.jpeg" alt="">
+                    <img src="images/work- 3.png" alt="">
                     <div class="layer">
-                        <h3>Music Player</h3>
-                        <p>Developed a fully functional music player with features such as playback controls, and file browsing.</p>
-                        <a href="#"><img src="images/external-link.png" alt=""></a>
+                        <h3>Dating Application</h3>
+                        <p>Developed a fully functional Dating Application with features such as match and chat with your friends or partner .</p>
+                        <a href="heartlink.html"><img src="images/external-link.png" alt=""></a>
                     </div>
                 </div>
             </div>
-            <a href="#" class="btn">See More</a>
+            <a href="projects.html" class="btn">See More</a>
         </div>
     </div>
     <!-- ----------------------------contact section------------------------------ -->
@@ -115,8 +123,8 @@
             <div class="row">
                 <div class="contact-left">
                     <h1 class="sub-tittle">Contact Me</h1>
-                    <p> <img src="images/paper-plane.png" alt=""> rp520972@gmail.com</p>
-                    <p> <img src="images/call.png" alt=""> 9625704826</p>
+                    <p class="info"> <img src="images/paper-plane.png" alt=""> rp520972@gmail.com</p>
+                    <p class="info"> <img src="images/call.png" alt=""> 9625704826</p>
                     <div class="social-icons">
                         <a href=""><img src="images/facebook.png" alt=""></a>
                         <a href="https://www.instagram.com/invites/contact/?i=12go07rler8rp&utm_content=49k7ior" target="_blank"><img src="images/instagram.png" alt=""></a>
@@ -141,6 +149,8 @@
             <p>Copyright © Rahul</p>
         </div>
     </div>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script src="script.js">
     </script>
 </body>

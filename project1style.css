@@ -1,7 +1,7 @@
 body{
     background-color: black;
     color: #fff;
-    font-family: 'Salsa';
+    font-family: 'Poppins';
 }
 html{
     scroll-behavior: smooth;
@@ -210,6 +210,8 @@ form .btn2{
     }
     .title{
         margin:55px 40px;
+        font-size: 50px;
+        
     }
     .devices{
         flex-direction: column;

@@ -39,4 +39,24 @@ const msg = document.getElementById("msg")
       })
       .catch(error => console.error('Error!', error.message))
   })
-    
+    // scroll reveal
+
+    ScrollReveal({
+      reset: true,
+      distance: '80px',
+      duration: 2000,
+      delay: 200
+      });
+      ScrollReveal().reveal('.header-text, .sub-tittle', { origin: 'top' });
+      ScrollReveal().reveal('.project , .btn', { origin: 'bottom' });
+      ScrollReveal().reveal('.social-icons , .info , .about-col1 , .header-text h1', { origin: 'left' });
+      ScrollReveal().reveal('.about-col2 , .contact-right', { origin: 'right' });
+
+      /*====== ===== typed js === */
+const typed = new Typed('.multiple-text', {
+  strings: ['Frontend Developer', 'Android Developer', 'Video Editor'],
+  typeSpeed: 100,
+  backSpeed: 100,
+  backDelay: 1000,
+  loop: true
+  });
