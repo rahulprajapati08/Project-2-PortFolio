@@ -54,7 +54,7 @@ const msg = document.getElementById("msg")
 
       /*====== ===== typed js === */
 const typed = new Typed('.multiple-text', {
-  strings: ['Frontend Developer', 'Android Developer', 'Video Editor'],
+  strings: ['Data Scientist', 'AI/ML Engineer'],
   typeSpeed: 100,
   backSpeed: 100,
   backDelay: 1000,
